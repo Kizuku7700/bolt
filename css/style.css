@@ -2,13 +2,12 @@
 
 /* HEADER */
 body {
-  font-family: 'Raleway';
+  font-family: 'Lato';
   font-weight: 100;
 }
 
-.Lato {
-  font-family: 'Lato';
-  font-weight: 100;
+.Raleway {
+  font-family: 'Raleway';
 }
 
 .inner {
