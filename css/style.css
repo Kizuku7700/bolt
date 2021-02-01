@@ -40,6 +40,7 @@ body {
   color: #fff;
   background-color: #74cfae;
   transition: all .3s;
+  text-decoration: none;
 }
 
 .header__button {
