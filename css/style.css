@@ -26,8 +26,7 @@ body {
 
 .header-inner {
   display: flex;
-  justify-content: center;
-  background-color: #fff;
+  justify-content: space-between;
 }
 
 .header-inner .fas {
@@ -45,32 +44,35 @@ body {
 
 .header__button {
   padding: 14px 12px;
-  margin-left: 800px;
 }
 
 .button:hover {
-  cursor: pointer;
   color: #333;
 }
 
 /* MAIN */
+
+main {
+  padding-top: 68px;
+  background-color: #f2f2f2;
+}
+
 .main__theme {
   text-align: center;
-  background-color: #f2f2f2;
+  padding-top: 250px;
+  padding-bottom: 250px;
 }
 
 .main__theme__text {
   font-size: 90px;
   font-weight: 700;
   color: #74cfae;
-  padding-top: 250px;
 }
 
 .main__theme__sub-text {
   font-size: 30px;
   color: #c0c0c0;
   margin-top: 20px;
-  padding-bottom: 250px;
 }
 
 .main__section__desc {
@@ -88,8 +90,7 @@ body {
   width: 650px;
   text-align: center;
   margin-left: 100px;
-  margin-top: 30px;
-  margin-bottom: auto;
+  padding-top: 30px;
 }
 
 .content__title {
@@ -129,9 +130,12 @@ body {
   margin-bottom: 80px;
 }
 
-.main__article__container .item:nth-child(1),
-.main__article__container .item:nth-child(4) {
+.main__article__container .item:nth-child(3n+1) {
   margin-left: 0;
+}
+
+.main__article__container .item:nth-child(n+4) {
+  margin-bottom: 0;
 }
 
 .item:hover {
@@ -141,7 +145,7 @@ body {
 .main__article__content {
   display: flex;
   justify-content: center;
-  padding-top: 10px;
+  margin-top: 90px;
 }
 
 .main__article__text {
@@ -164,13 +168,14 @@ body {
 .main__section__service {
   background-color: #4e4e4e;
   text-align: center;
+  padding-top: 70px;
   padding-bottom: 100px;
 }
 
 .main__section__service__title {
-  padding:70px 0;
   color: #fff;
   font-size: 24px;
+  margin-bottom: 60px;
 }
 
 .main__section__service__circle {
@@ -211,11 +216,10 @@ body {
 }
 
 /* FOOTER */
-footer {
+.footer {
   background-color: #74cfae;
   padding-top: 20px;
   padding-bottom: 25px;
-  padding-right: 150px;
   text-align: right;
   color: #fff;
 }
