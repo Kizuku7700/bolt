@@ -255,8 +255,7 @@ body {
   }
 
   .main__section__desc__inner__content {
-    margin-top: 20px;
-    margin-left: 10%;
+    margin: 20px auto 0;
     width: 80%;
   }
 /* Our Latest Work & Image×６ */
